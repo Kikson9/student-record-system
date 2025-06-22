@@ -1,52 +1,21 @@
-# Prerequisites
-*.d
+# Binary executable
+student
 
-# Object files
+# Object files (if you compile in steps or later split into .h/.c)
 *.o
-*.ko
-*.obj
-*.elf
 
-# Linker output
-*.ilk
-*.map
-*.exp
+# Editor/IDE temp files
+*~
+*.swp
+*.bak
 
-# Precompiled Headers
-*.gch
-*.pch
+# macOS
+.DS_Store
 
-# Libraries
-*.lib
-*.a
-*.la
-*.lo
+# Windows
+Thumbs.db
 
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
+# Compiled output / exports
+student_report.txt
+students.dat
 
-# Executables
-*.exe
-*.out
-*.app
-*.i*86
-*.x86_64
-*.hex
-
-# Debug files
-*.dSYM/
-*.su
-*.idb
-*.pdb
-
-# Kernel Module Compile Results
-*.mod*
-*.cmd
-.tmp_versions/
-modules.order
-Module.symvers
-Mkfile.old
-dkms.conf
