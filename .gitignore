@@ -1,21 +1,29 @@
-# Binary executable
+# Executable/binary
 student
+*.exe
+*.out
 
-# Object files (if you compile in steps or later split into .h/.c)
+# Object files
 *.o
+
+# Code::Blocks project backup files
+*.layout
+*.depend
+*.layout.save
+*.layout_backup
+*.cbTemp
+*.cbuser
+*.autosave
+
+# Compiled data files from your program
+students.dat
+student_report.txt
 
 # Editor/IDE temp files
 *~
 *.swp
 *.bak
 
-# macOS
+# System files
 .DS_Store
-
-# Windows
 Thumbs.db
-
-# Compiled output / exports
-student_report.txt
-students.dat
-
